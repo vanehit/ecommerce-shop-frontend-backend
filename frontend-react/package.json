@@ -23,11 +23,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node backend/server.js",
+    "build": "cd frontend-react && npm install && npm run build"
   },
+"proxi": "http://localhost:3000",
+
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -46,10 +46,14 @@
       "last 1 safari version"
     ]
   },
-  "main": "index.js",
+  "main": "server.js",
+  "engines": {
+    "node": "v16.15.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {},
   "description": ""
 }
+
