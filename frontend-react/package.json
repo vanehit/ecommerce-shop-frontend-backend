@@ -23,8 +23,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "node backend/server.js",
-    "build": "cd frontend-react && npm install && npm run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
 "proxi": "http://localhost:3000",
 

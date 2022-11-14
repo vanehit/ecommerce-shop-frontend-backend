@@ -49,9 +49,8 @@ const Center = styled.div`
   text-align: center;
 `;
 
-const Logo = styled.h1`
-  font-weight: bold;
-  ${mobile({ fontSize: "24px" })}
+const Logo = styled.img`
+  width: 80px;
 `;
 const Right = styled.div`
   flex: 1;
